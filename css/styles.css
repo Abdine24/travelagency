@@ -134,10 +134,10 @@ header nav ul li a:hover{
 
 /* steps*/
 
-/* #steps {
-    background-color: #ff7a00;
+#steps {
+    background-color: rgba(188, 151, 148, 0.95);
     
-} */
+}
 
 
 #steps ul {
