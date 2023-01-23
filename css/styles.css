@@ -295,7 +295,7 @@ footer h1{
 
 @media screen and (max-width: 600px){
     .wrapper{
-        width: 580px;
+        width: 380px;
         margin: 0 auto;
         padding: 0 10px;
     }
@@ -325,9 +325,29 @@ footer h1{
         align-items: center;
     }
 
+    header nav ul li a{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-right: 8px;
+    }
+
+    #main-image{
+        height: 400px;
+        background: url('../images/main-image.jpg') center;
+    }
+    
+    #main-image h2{
+        font-weight: normal;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 50px 0 20px 0;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
 
     #steps ul {
-        margin: 80px 0;
+        margin: 50px 0;
         
     }
     
@@ -346,12 +366,12 @@ footer h1{
     
     #steps h4{
         text-transform: uppercase;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         background-color: #ff7a00;
     }
     
     #steps p{
-        margin-bottom: 20px;  
+        margin-bottom: 10px;  
     }
     
     #step-1{
@@ -430,7 +450,7 @@ footer h1{
     /* contact */
     
     #contact{
-        padding: 60px 0;
+        padding: 40px 0;
         text-align: center;
     }
     
@@ -461,13 +481,13 @@ footer h1{
     footer h1{
         color: white;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 15px;
     }
     
     .copyright{
         text-align: center;
         font-weight: bold;
-        padding-top: 10px;
+        padding-top: 8px;
         color: #777;
     }
     
